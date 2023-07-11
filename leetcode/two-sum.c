@@ -1,5 +1,7 @@
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 
+    //going through the array in a double for loop and checking if sum of 2 elements equals the target. we return the index in a array alongside the size of the same
+
     int n = numsSize;
     
     int* arr;
